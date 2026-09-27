@@ -252,7 +252,6 @@
         setInput($('input[aria-label="Mật khẩu"]'), CFG.PASS);
 
         await fillDOB();
-    };
 
     const clearData = async () => {
         localStorage.clear();
