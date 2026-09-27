@@ -240,7 +240,6 @@
         await selectDD('div[aria-label="Năm"]', (1990 + ~~(Math.random() * 16)).toString());
     };
 
-    const   async () => {
         state.email = genEmail();
         state.user = genUsername();
         localStorage.setItem('p_email', state.email);
