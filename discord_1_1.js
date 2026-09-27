@@ -242,7 +242,6 @@
 
         state.email = genEmail();
         state.user = genUsername();
-        localStorage.setItem('p_email', state.email);
         localStorage.setItem('p_user', state.user);
         await sleep(500);
 
